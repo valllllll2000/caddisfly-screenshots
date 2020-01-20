@@ -36,30 +36,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
----
-layout: default
-images:
-  - image_path: /images/cakes/apple-pie.jpg
-    title: Apple Pie
-  - image_path: /images/cakes/birthday-cake.jpg
-    title: Birthday Cake
-  - image_path: /images/cakes/black-forest.jpg
-    title: Black Forest
-  - image_path: /images/cakes/brownie.jpg
-    title: Brownie
-  - image_path: /images/cakes/cheese-cake.jpg
-    title: Cheese Cake
-  - image_path: /images/cakes/chocolate-cake.jpg
-    title: Chocolate Cake
-  - image_path: /images/cakes/fruit-cake.jpg
-    title: Fruit Cake
-  - image_path: /images/cakes/lamington.jpg
-    title: Lamington
-  - image_path: /images/cakes/lemon-cake.jpg
-    title: Lemon Cake
----
-<ul class="photo-gallery">
-  {% for image in page.images %}
-    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
-  {% endfor %}
-</ul>
+{% assign image_files = site.static_files | where: "image", true %}
+{% for myimage in image_files %}
+  {{ myimage.path }}
+{% endfor %}
