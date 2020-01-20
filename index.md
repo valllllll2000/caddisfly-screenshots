@@ -38,5 +38,5 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
-  {{ myimage.path }}
+   <img src="{{ myimage.path }}" />
 {% endfor %}
