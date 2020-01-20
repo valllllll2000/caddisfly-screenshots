@@ -8,3 +8,7 @@ defaults:
       
 title: Caddisfly Screenshots
 description: View app screenshots
+
+github:
+  zip_url: http://example.com/download.zip
+  another_url: another value
