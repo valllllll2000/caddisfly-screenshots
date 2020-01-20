@@ -5,3 +5,6 @@ defaults:
       path: "screenshots"
     values:
       image: true
+      
+title: Caddisfly Screenshots
+description: View app screenshots
