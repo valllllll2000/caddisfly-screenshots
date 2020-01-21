@@ -1,6 +1,7 @@
 <style>
 .image {
    display: inline-block;
+   margin: 2px 2px 2px 2px;
 }
 </style>
 
