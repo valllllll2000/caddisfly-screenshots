@@ -1,7 +1,7 @@
 # caddisfly-screenshots
 
 To view screenshots go to:
-https://akvo.github.io/caddisfly-screenshots/
+https://valllllll2000.github.io/caddisfly-screenshots/
 
 ## How to add screenshots
 - Clone the project
